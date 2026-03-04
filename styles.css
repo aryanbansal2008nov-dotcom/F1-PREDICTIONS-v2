@@ -284,7 +284,7 @@ html {
     z-index: 9999;
     background: 
         linear-gradient(135deg, rgba(21, 21, 30, 0.6) 0%, rgba(10, 10, 15, 0.6) 100%),
-        url('norris_crash.jpg');
+        url('facebook_Kim_Jong_Un_'in_tears'.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1457,4 +1457,5 @@ html {
         font-size: 15px;
     }
 }
+
 
