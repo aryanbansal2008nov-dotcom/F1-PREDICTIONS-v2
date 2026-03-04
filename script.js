@@ -4,10 +4,10 @@ const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzkBfeCEWauTD
 // F1 2025 Drivers Data
 const drivers = [
     // Red Bull Racing
-    { number: 1, name: 'MAX VERSTAPPEN', team: 'Red Bull Racing' },
-    { number: 22, name: 'YUKI TSUNODA', team: 'Red Bull Racing' },
+    { number: 3, name: 'MAX VERSTAPPEN', team: 'Red Bull Racing' },
+    { number: 21, name: 'ISACK HADJAR', team: 'Red Bull Racing' },
     // McLaren
-    { number: 4, name: 'LANDO NORRIS', team: 'McLaren' },
+    { number: 1, name: 'LANDO NORRIS', team: 'McLaren' },
     { number: 81, name: 'OSCAR PIASTRI', team: 'McLaren' },
     // Ferrari
     { number: 44, name: 'LEWIS HAMILTON', team: 'Ferrari' },
@@ -22,23 +22,26 @@ const drivers = [
     { number: 14, name: 'FERNANDO ALONSO', team: 'Aston Martin' },
     { number: 18, name: 'LANCE STROLL', team: 'Aston Martin' },
     // Racing Bulls
-    { number: 21, name: 'ISACK HADJAR', team: 'Racing Bulls' },
-    { number: 40, name: 'LIAM LAWSON', team: 'Racing Bulls' },
+    { number: 41, name: 'ARVID LINDBLAD', team: 'Racing Bulls' },
+    { number: 30, name: 'LIAM LAWSON', team: 'Racing Bulls' },
     // Sauber
-    { number: 27, name: 'NICO HULKENBERG', team: 'Sauber' },
-    { number: 5, name: 'GABRIEL BORTOLETO', team: 'Sauber' },
+    { number: 27, name: 'NICO HULKENBERG', team: 'Audi Racing' },
+    { number: 5, name: 'GABRIEL BORTOLETO', team: 'Audi Racing' },
     // Haas
     { number: 87, name: 'OLIVER BEARMAN', team: 'Haas' },
     { number: 31, name: 'ESTEBAN OCON', team: 'Haas' },
     // Alpine
     { number: 10, name: 'PIERRE GASLY', team: 'Alpine' },
-    { number: 43, name: 'FRANCO COLAPINTO', team: 'Alpine' }
+    { number: 43, name: 'FRANCO COLAPINTO', team: 'Alpine' },
+    // Cadillac
+    { number: 11, name: 'SERGIO PEREZ', team: 'Cadillac Racing'},
+    { number: 77, name: 'VALTERRI BOTTAS', team: 'Cadillac Racing'}
 ];
 
 // Driver image mapping
 const driverImages = {
     'MAX VERSTAPPEN': 'max.png',
-    'YUKI TSUNODA': 'yuki.png',
+    'ARVID LINDBLAD': 'lindblad.png',
     'LEWIS HAMILTON': 'hamilton.png',
     'CHARLES LECLERC': 'charles.png',
     'LANDO NORRIS': 'lundo.png',
@@ -56,7 +59,9 @@ const driverImages = {
     'CARLOS SAINZ': 'carlos.png',
     'ALEX ALBON': 'albon.png',
     'ISACK HADJAR': 'hadjar.png',
-    'LIAM LAWSON': 'lawson.png'
+    'LIAM LAWSON': 'lawson.png',
+    'SERGIO PEREZ': 'perez.jpg',
+    'VALTERRI BOTTAS': 'bottas.png'
 };
 
 // Questions structure
@@ -492,6 +497,7 @@ document.addEventListener('keydown', (e) => {
         }
     }
 });
+
 
 
 
