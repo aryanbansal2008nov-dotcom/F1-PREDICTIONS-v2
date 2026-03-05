@@ -69,7 +69,7 @@ const questions = [
     // Position predictions (P1 to P20)
     ...Array.from({ length: 22 }, (_, i) => ({
         id: `p${i + 1}`,
-        title: `ABU DHABI GP - YOUR P${i + 1}`,
+        title: `AUSTRALIAN GP - YOUR P${i + 1}`,
         type: 'driver',
         questionNumber: `QUESTION ${i + 1} / 24`
     })),
@@ -497,6 +497,7 @@ document.addEventListener('keydown', (e) => {
         }
     }
 });
+
 
 
 
