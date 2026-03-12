@@ -73,8 +73,8 @@ const sprintQuestions = [
         questionNumber: `QUESTION ${i + 1}`
     })),
     ...Array.from({ length: 4 }, (_, i) => ({
-        id: `sprint_p${i + 17}`,
-        title: `SPRINT - YOUR P${i + 17}`,
+        id: `sprint_p${i + 19}`,
+        title: `SPRINT - YOUR P${i + 19}`,
         type: 'driver',
         questionNumber: `QUESTION ${i + 9}`
     })),
@@ -85,17 +85,17 @@ const sprintQuestions = [
 
 // Main Race Questions (All standard questions)
 const raceQuestions = [
-    ...Array.from({ length: 20 }, (_, i) => ({
+    ...Array.from({ length: 22 }, (_, i) => ({
         id: `race_p${i + 1}`,
         title: `RACE - YOUR P${i + 1}`,
         type: 'driver',
         questionNumber: `QUESTION ${i + 1}`
     })),
-    { id: 'race_pole_driver', title: 'RACE - POLE POSITION DRIVER', type: 'driver', questionNumber: 'QUESTION 21' },
-    { id: 'race_pole_time', title: 'RACE - POLE LAP TIME', type: 'time', questionNumber: 'QUESTION 22', placeholder: '12.246' },
-    { id: 'race_fastest_lap_driver', title: 'RACE - FASTEST LAP DRIVER', type: 'driver', questionNumber: 'QUESTION 23' },
-    { id: 'race_fastest_lap_time', title: 'RACE - FASTEST LAP TIME', type: 'time', questionNumber: 'QUESTION 24', placeholder: '12.246' },
-    { id: 'race_most_positions', title: 'RACE - MOST POSITIONS GAINED', type: 'driver', questionNumber: 'QUESTION 25' }
+    { id: 'race_pole_driver', title: 'RACE - POLE POSITION DRIVER', type: 'driver', questionNumber: 'QUESTION 22' },
+    { id: 'race_pole_time', title: 'RACE - POLE LAP TIME', type: 'time', questionNumber: 'QUESTION 23', placeholder: '12.246' },
+    { id: 'race_fastest_lap_driver', title: 'RACE - FASTEST LAP DRIVER', type: 'driver', questionNumber: 'QUESTION 24' },
+    { id: 'race_fastest_lap_time', title: 'RACE - FASTEST LAP TIME', type: 'time', questionNumber: 'QUESTION 25', placeholder: '12.246' },
+    { id: 'race_most_positions', title: 'RACE - MOST POSITIONS GAINED', type: 'driver', questionNumber: 'QUESTION 26' }
 ];
 
 // State
