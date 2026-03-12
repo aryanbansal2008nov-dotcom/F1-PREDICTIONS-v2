@@ -1,5 +1,5 @@
 // Configuration - Update this with your Google Apps Script Web App URL
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzkBfeCEWauTDERnnf9rkJkp5f_n9Bsw9b7TlqEcfQGLRjBWSryxE5YZBYRhk3WER0/exec';
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx3tCu7_0SVLPBVb0iY-TJbbeaHZnk1aymLff7VY4SR7x1gITjh4E8JQWeeEo4CX7rR/exec';
 
 // F1 2025 Drivers Data
 const drivers = [
